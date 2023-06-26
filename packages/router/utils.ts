@@ -88,7 +88,9 @@ export type V7_MutationFormMethod = Exclude<V7_FormMethod, "GET">;
 
 export type FormEncType =
   | "application/x-www-form-urlencoded"
-  | "multipart/form-data";
+  | "multipart/form-data"
+  | "application/json"
+  | "text/plain";
 
 /**
  * @private
